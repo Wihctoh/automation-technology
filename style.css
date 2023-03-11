@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  width: 1470px;
+  margin: 13px auto;
+  padding: 0 15px;
+  font-family: "Oswald";
+  font-style: normal;
+  background-color: #fff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.header_logo {
+  background-image: url(./assets/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 93px;
+  height: 32px;
+}
+
+nav {
+  padding-left: 60px;
+  display: flex;
+  gap: 40px;
+}
+
+nav p {
+  font: 400 14px "Oswald";
+  color: #000;
+  text-transform: uppercase;
+}
+
+.nav_btn {
+  margin-left: 450px;
+  padding: 14px 0;
+  width: 193px;
+  text-align: center;
+  text-transform: uppercase;
+  font: 400 14px "Oswald";
+  color: #fff;
+  background-color: #0057ff;
+  border-radius: 30px;
+}
+
+section {
+  margin-top: 150px;
+  display: flex;
+}
+
+section .img_wrapper .main_img {
+  margin-top: 35px;
+  background-image: url(./assets/main_img.png);
+  width: 540px;
+  height: 589px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 120px;
+}
+
+.wrapper .main_discription {
+  width: 416px;
+}
+
+.wrapper .main_discription h1 {
+  font: 400 40px "Oswald";
+  line-height: 50px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.wrapper .main_discription p {
+  padding-top: 48px;
+  font: 400 15px "Oswald";
+  color: #000;
+}
+
+.wrapper .dropdown_list {
+  margin-left: 20px;
+  width: 498px;
+  border: 1px solid #e7e7e7;
+  border-radius: 20px;
+  margin-top: 58px;
+}
+
+.wrapper .dropdown_list_el {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper .dropdown_list_el:not(:last-child) {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.wrapper .dropdown_list p {
+  font: 400 16px "Oswald";
+  color: #000;
+  text-transform: uppercase;
+  padding: 30px 0 30px 40px;
+}
+
+.wrapper .dropdown_list .dropdown_list_img {
+  background-image: url(./assets/plus_img.svg);
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 32px;
+}
+
+.dropdown_list_el_text p {
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #f5f5f5;
+}
+
+.last_p {
+  border-bottom: 1px solid #e7e7e7;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
