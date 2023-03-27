@@ -5,6 +5,14 @@
   outline: none;
   text-decoration: none;
 }
+a:visited {
+  color: #000;
+}
+
+a:hover {
+  transition: 1s;
+  color: #5688c7;
+}
 
 body {
   width: 1470px;
@@ -132,3 +140,9 @@ section .img_wrapper .main_img {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
+
+/* ---------------- animations------------------------ */
+/* .wrapper .dropdown_list .dropdown_list_img:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+} */
